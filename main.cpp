@@ -29,6 +29,8 @@ int main() {
     Graph::vertex_set Si = A.in_neighbors(p);
     Graph::vertex_set So = A.out_neighbors(p);
 
+    int i = 5;
+
     // print out each out-going edge
     //
     for (Graph::vertex_set::const_iterator t = Si.begin(); t != Si.end(); t++) {
